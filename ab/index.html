@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    * {
+    box-sizing: border-box;
+}
+html, body, section, div {
+    height: 100%;
+  }
+body {
+    background: linear-gradient(blue, grey, black);
+}
+header {
+    font-size: 40px;
+    color: lightblue;
+    border: 2px solid black;
+    text-align: center;
+}
+section div article p {
+font-size: 20px;
+color: greenyellow;
+border: 2px solid black;
+clear: both;
+word-wrap: break-word;
+}
+
+section div article img {
+    max-width: 500px;
+    max-height: 400px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.left-half {
+    float: left;
+    width: 50%;
+}
+.right-half {
+    float:left;
+    width: 50%;
+    padding: 10px;
+}
+section {
+    width: 100%;
+}
+header#pict {
+    font-size: 30px;
+color: olive;
+border: 2px solid black;
+clear: both;
+word-wrap: break-word;
+}
+</style>
+    <title>Bryce Monaghan - WEB 210</title>
+</head>
+<body>
+    <header>I am Bryce Monaghan</header>
+    <section class="container">
+        <div class="left-half">
+            <article>
+                <p>I am currently a student at Wake Technical Community College. I have three classes, WEB210, WEB125, and WEB214.
+                I like to travel with my parents, surf on the internet and read my favorite comic, Garfield. I also enjoy playing board and video games.
+                </p>
+            </article>
+        </div>
+        <div class="right-half">
+            <article>
+                <header id="pict">This is a picture of me.</header>
+                <img src="me.jpg" alt="Bryce Monaghan in 2019" class="center">
+               <p>Click <a href="https://google.com">here</a> for Google.</p>
+            </article>
+        </div>
+    </section>
+</body>
+</html>
